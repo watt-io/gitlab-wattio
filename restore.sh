@@ -8,8 +8,8 @@ if [ $# -eq 1 ]; then
     AWS_BUCKET_NAME="$1"
 fi
 
-# Change directory to /etc/gitlab-wattio
-cd /etc/gitlab-wattio
+# Change directory to /etc/gitlab
+cd /etc/gitlab
 
 # Remove files and directories
 rm -rf dump_gitlab_backup.tar gitlab.rb gitlab-secrets.json
