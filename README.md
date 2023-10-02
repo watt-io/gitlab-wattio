@@ -1,0 +1,3 @@
+- O diminio git.wattio.com.br deve apontar para o IP da EC2 rodando o gitlab
+- Alocar o elastic ip para EC2 de produção
+- Rodar todos os scripts com: sudo bash NOME_DO_SCRIPT.sh# gitlab_ce_scripts
